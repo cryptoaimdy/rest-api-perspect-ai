@@ -9,7 +9,7 @@ from werkzeug.utils import secure_filename
 import time 
 import mysql.connector 
 
-conn = mysql.connector.connect(user='root', password='indianit16',
+conn = mysql.connector.connect(user='root', password='****',
                               host='localhost',
                               database='hrms',
                               auth_plugin='mysql_native_password')
@@ -24,7 +24,7 @@ users = {}
 # server = '127.0.0.1:3306' 
 # database = 'hrms' 
 # username = 'root' 
-# password = 'indianit16' 
+# password = '*******' 
 # cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
 # cursor = cnxn.cursor()
 
@@ -35,7 +35,7 @@ users = {}
 #                     'PORT=3306;'
 #                     'Database=hrms;'
 #                     'UID=root;'
-#                     'PWD=indianit16;')
+#                     'PWD=*****;')
 
 
 @app.route('/addEmployee', methods=['POST'])
