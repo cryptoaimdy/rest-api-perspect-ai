@@ -61,6 +61,7 @@ function reply_click(clicked_id){
 function addEmployee(clicked_id, hr_id){
   var emp_name = prompt('enter Emp name')
   var salary = prompt('enter Salary')
+  var hr_id = prompt('enter hr_id')
   $.ajax({
     url: '/addEmployee',
     type: 'POST',
